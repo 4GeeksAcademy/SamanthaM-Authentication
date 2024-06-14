@@ -72,7 +72,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			};
 				
 
-				fetch("https://musical-capybara-5gg55jgrjw9rf75gx-3001.app.github.dev/api/token", opts)
+				fetch("https://glorious-space-capybara-5ggjrjwrjxpj39x5-3001.app.github.dev//api/token", opts)
 				.then(resp => resp.json())
 				.then(data => setStore({ message: data.message }))
 				.catch(error => console.log("Error loading message from backend", error));
